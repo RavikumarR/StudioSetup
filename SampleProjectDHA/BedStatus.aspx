@@ -37,6 +37,7 @@
                         <span class="c-header-title data-white fs-16">Bed Status</span>
                         <span></span>
                         <span></span>
+                        <span></span>
                     </div>
                 </div>
                 <div class="col-md-9 col-sm-9 col-xs-9 col-lg-9 header-search-box bg-white" style="height:40px !important;">
