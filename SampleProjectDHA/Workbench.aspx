@@ -60,21 +60,21 @@
                     <div class="col col-md-7 col-sm-7 col-xs-11 h-50">
                         <div class="row">
                             <div class="col col-md-4 col-sm-4 col-xs-4 pl-5 pr-5">
-                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <div class=" mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                     <input class="mdl-textfield__input dateRangefield" type="text" id="dateRange">
-                                    <label class="mdl-textfield__label" for="dateRange">Date Range</label>
+                                    <label class="kwidgt mdl-textfield__label" for="dateRange">Date Range</label>
                                 </div>      
                             </div>
                             <div class="col col-md-4 col-sm-4 col-xs-4 pl-5 pr-5">
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                     <input class="mdl-textfield__input fromDateFilterfield" type="text" id="fromDateFilter">
-                                    <label class="mdl-textfield__label" for="fromDateFilter">From</label>
+                                    <label class="kwidgt mdl-textfield__label" for="fromDateFilter">From</label>
                                 </div>      
                             </div>
                             <div class="col col-md-4 col-sm-4 col-xs-4 pl-5 pr-5">
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                     <input class="mdl-textfield__input toDateFilterfield" type="text" id="toDateFilter">
-                                    <label class="mdl-textfield__label" for="toDateFilter">To</label>
+                                    <label class="kwidgt mdl-textfield__label" for="toDateFilter">To</label>
                                 </div>      
                             </div>
                         </div>
@@ -232,7 +232,7 @@
                     </div>
                     <div class="panel-body">
                         <div class="calendar-container">
-                            <div class="row calendar-header bg-white">
+                            <div class="row calendar-header">
                                 <div class="col-md-1 col-sm-1 col-xs-1 col-lg-1" align="center">SUN</div>
                                 <div class="col-md-1 col-sm-1 col-xs-1 col-lg-1" align="center">MON</div>
                                 <div class="col-md-1 col-sm-1 col-xs-1 col-lg-1" align="center">TUE</div>
@@ -1594,7 +1594,7 @@ if(details[j].IsHoliday == "Y" || details[j].IsLeave == "Y" ){
                     </div>
                     <div class="panel-body">
                         <div class="calendar-container">
-                            <div class="row calendar-header bg-white">
+                            <div class="row calendar-header">
                                 <div class="col-md-1 col-sm-1 col-xs-1 col-lg-1" align="center">SUN</div>
                                 <div class="col-md-1 col-sm-1 col-xs-1 col-lg-1" align="center">MON</div>
                                 <div class="col-md-1 col-sm-1 col-xs-1 col-lg-1" align="center">TUE</div>
@@ -1711,7 +1711,7 @@ if(details[j].IsHoliday == "Y" || details[j].IsLeave == "Y" ){
                                 <div class="row" style="margin-top:25%;">
                                   <div class="col-md-12 col-sm-12" align="center">
                                     <i class="fa fa-yelp" style="color:\\#2c3e50; font-size:75px; display:block;"></i><br><br>
-                                    <span class="fs-16" style="color:\\#2c3e50; font-size:20px;">No Data Found</span>
+                                    <span class="fs-16" style="color:\\#2c3e50; font-size:14px;">No Data Found</span>
                                   </div>
                                 </div>
 
@@ -1977,7 +1977,7 @@ if(details[j].IsHoliday == "Y" || details[j].IsLeave == "Y" ){
 <script id="noSlots" type="text/x-kendo-template"> 
   <h1 style="text-align: center;
     margin-top: 160px;
-    font-size: 35px;">NO SLOTS AVAILABLE</h1>
+    font-size: 18px;">NO SLOTS AVAILABLE</h1>
 </script>
 
 <script id="noDataTemplate" type="text/x-kendo-template"> 
@@ -2005,7 +2005,7 @@ if(details[j].IsHoliday == "Y" || details[j].IsLeave == "Y" ){
             </div>
             <div class="panel-body">
                 <div class="calendar-container">
-                    <div class="row calendar-header bg-white" style="height:20px;">
+                    <div class="row calendar-header " style="height:20px;">
                         <div class="col-md-1 col-sm-1 col-xs-1 col-lg-1" align="center"> </div>
                         <div class="col-md-1 col-sm-1 col-xs-1 col-lg-1" align="center"> </div>
                         <div class="col-md-1 col-sm-1 col-xs-1 col-lg-1" align="center"> </div>
