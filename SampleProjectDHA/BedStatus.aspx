@@ -35,6 +35,8 @@
                     <div class="c-header bg-green ph pl-10 pt-10 pb-10">
                         <i class="c-header-icon fa fa-bed data-white fs-18 spacer-10"></i>
                         <span class="c-header-title data-white fs-16">Bed Status</span>
+                        <span></span>
+                        <span></span>
                     </div>
                 </div>
                 <div class="col-md-9 col-sm-9 col-xs-9 col-lg-9 header-search-box bg-white" style="height:40px !important;">
