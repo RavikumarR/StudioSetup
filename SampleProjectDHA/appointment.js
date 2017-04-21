@@ -137,7 +137,7 @@
   
     // global variables
     var currentMonth;
-    var months = ["Januray", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     
     var monthsShort = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
     var details = [];
